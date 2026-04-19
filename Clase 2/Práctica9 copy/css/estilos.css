@@ -1,0 +1,54 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial;
+}
+
+/* Títulos */
+h1, h2 {
+    text-align: center;
+    letter-spacing: 2px;
+    color: red;
+}
+
+/* Texto */
+p {
+    text-align: justify;
+}
+
+/* Línea */
+hr {
+    border: none;
+    height: 2px;
+    background-color: red;
+}
+
+/* Links */
+a {
+    color: orange;
+    text-decoration: none;
+}
+
+/* Imágenes */
+img {
+    display: block;
+    margin: auto;
+    width: 250px;
+    border: 2px solid white;
+}
+
+/* Lista */
+ul {
+    margin-left: 20px;
+}
+
+/* Spoiler */
+#spoiler {
+    background-color: yellow;
+    color: black;
+}
+
+/* Clases */
+.titulos, .adicional {
+    text-align: center;
+}
