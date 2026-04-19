@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(207, 205, 191);
+    color: rgb(126, 29, 29);
+}
+
+p, ul, h1, h2 {
+    text-align: justify;
+    letter-spacing: 1px;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: rgb(126, 29, 29);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(126, 29, 29);
+}
+
+img {
+    border: 3px solid rgb(126, 29, 29);
+}
+
+#spoiler {
+    text-transform: uppercase;
+    background-color: rgb(210, 203, 82);
+}
+
+.titulos, .adicional {
+    text-align: center;
+}
