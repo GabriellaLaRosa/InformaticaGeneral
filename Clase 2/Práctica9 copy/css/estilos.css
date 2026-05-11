@@ -51,4 +51,15 @@ ul {
 /* Clases */
 .titulos, .adicional {
     text-align: center;
-}
+} 
+
+/* 
+IA utilizada: chatgpt
+
+La información que necesita la IA es la distribución del html. Y si quiero sumar la edición de los identificadores 
+y de las clases decirle que elementos del html corresponden a cada caso.
+
+Estéticamente me gustó que centrara el segundo titulo y la imagen, más no la elección de colores (aunque por ahí se 
+ajuste mejor a la serie). Me llama la atención que en el prompt le dije que visualmente hiciera algo completaente diferente
+al diseño original y de tener un fondo crema, pasó a uno negro, se lo tomó literal.
+*/
