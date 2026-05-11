@@ -1,0 +1,88 @@
+/* Fondo general */
+body {
+    background-color: rgba(168, 101, 0, 0.588);
+    text-align: center;
+}
+
+/* Contenedores flex */
+.contenedor {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;              /* 🔥 importante */
+    justify-content: center;      /* 🔥 centra tarjetas */
+}
+
+.contenedor1 {
+    display: flex;
+    gap: 5px;
+}
+
+/* Tarjetas (section) */
+section {
+    background-color: rgb(122, 55, 40);
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 30px;          /* 🔥 reemplaza <hr> */
+}
+
+/* SOLO para tarjetas tipo reparto */
+.contenedor section {
+    width: 200px;                /* 🔥 mejor que 20% */
+}
+
+/* Variante protagonista */
+.prota {
+    background-color: rgb(89, 30, 17);
+}
+
+/* Textos */
+h1, h2, h3 {
+    color: rgb(92, 30, 17);
+}
+
+p, li {
+    color: rgb(73, 23, 13);
+}
+
+.section {
+    color: rgba(252, 185, 61, 0.456);
+}
+
+/* Listas */
+ul {
+    padding: 0;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: rgb(160, 2, 84);
+}
+
+a:hover {
+    text-decoration: underline;   /* 🔥 mejora UX */
+}
+
+/* Imágenes */
+img {
+    border-radius: 15px;
+    display: block;
+    margin: 10px auto;            /* 🔥 centrado */
+}
+
+/* Video responsive */
+iframe {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+}
+
+/* ❌ eliminamos hr visualmente */
+hr {
+    display: none;
+}
+
+/* Distribuyo mejor las secciones, saco los hr para delimitar con css y que se vea mas moderno,
+agrego tipografia, el detalle del subrayado a los links cuandoo le pasas el mouse por encima,
+que me parece que esta genial ysaco o modifico algunas cosas innecesarias, como el estilo al head
+(no lo ve el usuario, no tiene sentido estableverle un estilo*/

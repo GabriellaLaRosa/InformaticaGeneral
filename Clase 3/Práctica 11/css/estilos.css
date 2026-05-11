@@ -1,0 +1,39 @@
+head, body {background-color:rgba(168, 101, 0, 0.588);
+    text-align: center;}
+
+section {
+    background-color: rgb(122, 55, 40);
+    text-align: center;
+    width:20%;
+    border-radius: 15px;}
+
+.section{color: rgba(252, 185, 61, 0.456);}
+
+.contenedor{
+    display: flex;
+    gap: 20px;}
+
+.contenedor1{
+    display: flex;
+    gap: 5px;}
+
+.prota{background-color: rgb(89, 30, 17);}
+
+h1, h2, h3 {color: rgb(92, 30, 17);}
+
+p, li {color: rgb(73, 23, 13);}
+
+hr{ 
+    border: none;
+    height: 1px;
+    background-color: rgb(92, 30, 17);}
+
+ul {
+  padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(160, 2, 84);}
+
+img{border-radius: 15px;}

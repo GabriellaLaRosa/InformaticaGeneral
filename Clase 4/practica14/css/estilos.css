@@ -1,0 +1,45 @@
+*{
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    background-color: rgb(0, 124, 143);
+    color:rgb(230, 255, 119);
+}
+
+body{padding-left: 20%;
+    padding-right: 20%;}
+
+strong{
+    color:rgb(213, 168, 255);
+}
+
+hr{
+    border: none;
+    height:2px;
+    background-color:rgb(230, 255, 119);
+}
+
+.navbar {
+    display: flex;
+    gap:20px;
+    padding:0;
+    justify-content: center;
+}
+
+.contenedor{
+    width:100%;
+    max-width:960px;
+}
+
+ul {list-style:none;}
+
+img, iframe{
+    border-radius: 30rem;
+}
+
+a{text-decoration: none;}
+
+a:link {color:rgb(185, 255, 255);}
+a:visited {color:rgb(213, 168, 255);}
+a:hover {color:rgb(255, 211, 245);}
+a:active {color:rgb(218, 123, 219);
+background-color:rgb(195, 198, 254);}
